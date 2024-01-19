@@ -25,25 +25,25 @@ main{
 }
 
 button{
-    background-color: rgb(110, 110, 110);
-    border-radius: 30px;
+    background-color: rgb(31, 0, 0);
+    border-radius: 100%;
     box-shadow: 3px 3px 0 var(--cinza);
-    cursor: pointer;
     height: 120px;
-    font-size: 1.75em;
+    font-size: 20px;
     font-weight: bold;
     line-height: 120px;
     text-align: center;
     width: 120px;
+    color: white;
 }
 
 button:hover {
-    background-color: rgb(65, 65, 65);
+    background-color: rgba(0, 0, 0, 0.897);
 }
 
 ul{
-    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
-    box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
+    background: linear-gradient(to bottom, #aa1313 0%,#700d0d 100%);
+    box-shadow: 2px 2px 0 2px #690000, 10px 10px 10px #2e0000;
     border-radius: 30px;
     display: grid;
     gap: 10px;
